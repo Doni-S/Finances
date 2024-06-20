@@ -1,0 +1,2 @@
+SELECT _Date_ as date, Net as amount, Description as description   
+FROM `bank-408715.spending_history.paypal`
