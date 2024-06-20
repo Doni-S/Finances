@@ -1,0 +1,2 @@
+SELECT Date as date, coalesce(Debit, Credit) as amount, Description as decription  
+FROM `bank-408715.spending_history.sarah_transactions` 
