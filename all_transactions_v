@@ -1,0 +1,5 @@
+SELECT date, description, amount FROM `spending_history.sarah_transactions_v`
+UNION ALL
+SELECT date, description, amount FROM `spending_history.transactions_v`
+UNION ALL
+SELECT date, description, amount FROM `spending_history.paypal_v`
